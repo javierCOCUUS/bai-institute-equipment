@@ -1,0 +1,9 @@
+ID,Category,Machine_Name,Key_Specs,Quantity,Technical_Doc_Link,Status,
+1,Laser CO2,Large CO2 Laser (Exceeds MIT standard),Working area > 1300x900mm (TBD),2,,900x1300,14000
+2,CNC 3-Axis,Large 3-Axis CNC with ATC,Automatic Tool Changer - Large Format,1,"Carrousel, vacuum",1300x2500,40000
+3,CNC 5-Axis,Large 5-Axis CNC with ATC,Automatic Tool Changer - 5 Axis,1,,1300x2500,140000
+4,CNC Small,Precision Small CNC,Compact High Precision,1,,Pending Specs,
+5,3D Printer,Fleet of FDM Printers,Standard reliable FDM (e.g. Prusa/Bambu),20,,Pending Specs,
+6,3D Printer,Large/Ceramic 3D Printer,TBD: Large Format or Ceramic Extruder,1,,Pending Specs,
+7,Vinyl Plotter,Professional Vinyl Plotter,High precision cutting,1,,Pending Specs,
+8,Thermoforming,Thermoforming Machine,Industrial/Professional Scale,1,,Pending Specs,

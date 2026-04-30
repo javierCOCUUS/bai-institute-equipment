@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Anexo: Planificación Industrial y Requisitos de Planta - BAI 2026</title>
+    <link rel="stylesheet" href="templates/master_style.css">
+    <style>
+        .planning-sheet {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border: 1px solid var(--border);
+        }
+        .machine-section {
+            margin-bottom: 60px;
+            padding-bottom: 40px;
+            border-bottom: 2px solid var(--primary);
+            page-break-inside: avoid;
+        }
+        .data-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .data-card {
+            background: var(--bg-light);
+            padding: 15px;
+            border-radius: 4px;
+        }
+        .data-card h4 {
+            color: var(--primary);
+            font-size: 14px;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            border-bottom: 1px solid var(--border);
+        }
+        .data-list {
+            list-style: none;
+            font-size: 13px;
+        }
+        .data-list li {
+            margin-bottom: 5px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .data-list li span:first-child {
+            font-weight: 600;
+            color: var(--text-muted);
+        }
+        .complexity-tag {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 11px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        .complexity-low { background: #d4edda; color: #155724; }
+        .complexity-medium { background: #fff3cd; color: #856404; }
+        .complexity-high { background: #f8d7da; color: #721c24; }
+    </style>
+</head>
+<body>
+    <div class="planning-sheet">
+        <header>
+            <div>
+                <div class="brand-title">BUILDING ARCHITECTURE INSTITUTE</div>
+                <h1 class="machine-name">ANEXO DE PLANIFICACIÓN INDUSTRIAL</h1>
+                <div class="category-tag">Documento de Integración en Planta 2026</div>
+            </div>
+        </header>
+
+        <p style="margin-bottom: 40px; font-size: 15px;">Este documento complementa el catálogo técnico proporcionando datos críticos para el diseño de layout, instalación de suministros y planificación operativa del laboratorio.</p>
+
+        <!-- 1. LÁSER CO2 BAI-1390 -->
+        <div class="machine-section">
+            <h2 style="font-size: 24px; margin-bottom: 10px;">1. LÁSER CO2 BAI-1390</h2>
+            <div style="display: flex; gap: 20px;">
+                <img src="01_CO2_Lasers_Large/laserCO2.jpg" style="width: 200px; height: 150px; object-fit: contain; border: 1px solid var(--border);">
+                <p style="font-size: 14px;"><strong>Descripción:</strong> Equipo industrial de corte y grabado por CO2 para materiales no metálicos y grabado de metales. Uso principal: prototipado de fachadas, maquetas y paneles decorativos.</p>
+            </div>
+
+            <div class="data-grid">
+                <div class="data-card">
+                    <h4>Especificaciones Técnicas</h4>
+                    <ul class="data-list">
+                        <li><span>Alimentación:</span> 220V / 50Hz | 2kW est.</li>
+                        <li><span>Dimensiones (LxWxH):</span> Info no disponible (pend. completar)</li>
+                        <li><span>Área de trabajo:</span> 1300 x 900 mm</li>
+                        <li><span>Peso:</span> 400 kg aprox.</li>
+                    </ul>
+                </div>
+                <div class="data-card">
+                    <h4>Materiales Compatibles</h4>
+                    <ul class="data-list">
+                        <li><span>Compatibles:</span> Acrílico, Madera, MDF, Cuero, Piedra.</li>
+                        <li><span>Limitaciones:</span> Metales solo grabado; espesor máx. 20mm.</li>
+                    </ul>
+                </div>
+                <div class="data-card">
+                    <h4>Requisitos de Instalación</h4>
+                    <ul class="data-list">
+                        <li><span>Espacio mín:</span> 4000 x 3000 mm (Op/Mant)</li>
+                        <li><span>Ventilación:</span> Extracción forzada exterior obligatoria.</li>
+                        <li><span>Ruido:</span> Medio (Compresor/Extracción).</li>
+                    </ul>
+                </div>
+                <div class="data-card">
+                    <h4>Operación y Mantenimiento</h4>
+                    <ul class="data-list">
+                        <li><span>Mantenimiento:</span> Limpieza de ópticas (diaria).</li>
+                        <li><span>Consumibles:</span> Tubo CO2 (aprox 10k h), Lentes.</li>
+                        <li><span>Complejidad:</span> <span class="complexity-tag complexity-medium">Medio</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2. CNC MADERA BAI-1325 -->
+        <div class="machine-section">
+            <h2 style="font-size: 24px; margin-bottom: 10px;">2. CNC MADERA BAI-1325 (3-Axis ATC)</h2>
+            <div style="display: flex; gap: 20px;">
+                <img src="02_3-Axis_CNC_Large_ATC/CNC-3Axis-ATC.jpg" style="width: 200px; height: 150px; object-fit: contain; border: 1px solid var(--border);">
+                <p style="font-size: 14px;"><strong>Descripción:</strong> Fresadora CNC de gran formato con cambio automático de herramientas. Uso: carpintería estructural y paneles DfMA.</p>
+            </div>
+
+            <div class="data-grid">
+                <div class="data-card">
+                    <h4>Especificaciones Técnicas</h4>
+                    <ul class="data-list">
+                        <li><span>Alimentación:</span> 380V / 50Hz (Trifásico) | 9kW (Spindle)</li>
+                        <li><span>Dimensiones (LxWxH):</span> Info no disponible (pend. completar)</li>
+                        <li><span>Área de trabajo:</span> 1300 x 2500 x 250 mm</li>
+                        <li><span>Peso:</span> 1800 kg</li>
+                    </ul>
+                </div>
+                <div class="data-card">
+                    <h4>Materiales Compatibles</h4>
+                    <ul class="data-list">
+                        <li><span>Compatibles:</span> Madera maciza, MDF, Contrachapado, Plásticos.</li>
+                        <li><span>Limitaciones:</span> No metales ferrosos; máx 24k RPM.</li>
+                    </ul>
+                </div>
+                <div class="data-card">
+                    <h4>Requisitos de Instalación</h4>
+                    <ul class="data-list">
+                        <li><span>Espacio mín:</span> 5000 x 4000 mm</li>
+                        <li><span>Ventilación:</span> Aspiración industrial de viruta.</li>
+                        <li><span>Ruido:</span> Alto (Necesita aislamiento).</li>
+                    </ul>
+                </div>
+                <div class="data-card">
+                    <h4>Operación y Mantenimiento</h4>
+                    <ul class="data-list">
+                        <li><span>Mantenimiento:</span> Lubricación guías (Auto); Limpieza.</li>
+                        <li><span>Consumibles:</span> Fresas, sacrificio de mesa.</li>
+                        <li><span>Complejidad:</span> <span class="complexity-tag complexity-high">Alto</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3. CNC 5 EJES INDUSTRIAL -->
+        <div class="machine-section">
+            <h2 style="font-size: 24px; margin-bottom: 10px;">3. CNC 5 EJES INDUSTRIAL</h2>
+            <div style="display: flex; gap: 20px;">
+                <img src="03_5-Axis_CNC_Large_ATC/CNC5axis.jpg" style="width: 200px; height: 150px; object-fit: contain; border: 1px solid var(--border);">
+                <p style="font-size: 14px;"><strong>Descripción:</strong> Centro de mecanizado simultáneo de 5 ejes para geometría compleja y carpintería japonesa avanzada.</p>
+            </div>
+
+            <div class="data-grid">
+                <div class="data-card">
+                    <h4>Especificaciones Técnicas</h4>
+                    <ul class="data-list">
+                        <li><span>Alimentación:</span> 380V / 50Hz | Potencia alta.</li>
+                        <li><span>Dimensiones (LxWxH):</span> Configurable (Layout pend.)</li>
+                        <li><span>Área de trabajo:</span> 1300x2500 / 2000x4000 mm</li>
+                        <li><span>Peso:</span> Info no disponible (pend. completar)</li>
+                    </ul>
+                </div>
+                <div class="data-card">
+                    <h4>Materiales Compatibles</h4>
+                    <ul class="data-list">
+                        <li><span>Compatibles:</span> Madera estructural, Espumas, Resinas.</li>
+                        <li><span>Limitaciones:</span> Cinética compleja (requiere colisión sim).</li>
+                    </ul>
+                </div>
+                <div class="data-card">
+                    <h4>Requisitos de Instalación</h4>
+                    <ul class="data-list">
+                        <li><span>Espacio mín:</span> 8000 x 6000 mm (Radio de giro)</li>
+                        <li><span>Ventilación:</span> Aspiración gran volumen.</li>
+                        <li><span>Ruido:</span> Alto.</li>
+                    </ul>
+                </div>
+                <div class="data-card">
+                    <h4>Operación y Mantenimiento</h4>
+                    <ul class="data-list">
+                        <li><span>Mantenimiento:</span> Calibración cinemática periódica.</li>
+                        <li><span>Consumibles:</span> Herramientas específicas BT40/50.</li>
+                        <li><span>Complejidad:</span> <span class="complexity-tag complexity-high">Alto</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4. BAI-VMC850 -->
+        <div class="machine-section">
+            <h2 style="font-size: 24px; margin-bottom: 10px;">4. BAI-VMC850 PRECISION CENTER</h2>
+            <div style="display: flex; gap: 20px;">
+                <img src="04_Small_CNC/cnc.jpg.png" style="width: 200px; height: 150px; object-fit: contain; border: 1px solid var(--border);">
+                <p style="font-size: 14px;"><strong>Descripción:</strong> Centro de mecanizado vertical para metales y moldes de alta precisión. Imprescindible para herrajes a medida.</p>
+            </div>
+
+            <div class="data-grid">
+                <div class="data-card">
+                    <h4>Especificaciones Técnicas</h4>
+                    <ul class="data-list">
+                        <li><span>Alimentación:</span> 220V/380V (Configurable)</li>
+                        <li><span>Dimensiones (LxWxH):</span> 2600 x 2300 x 2580 mm</li>
+                        <li><span>Área de trabajo:</span> 800 x 500 x 500 mm</li>
+                        <li><span>Peso:</span> 5 Toneladas</li>
+                    </ul>
+                </div>
+                <div class="data-card">
+                    <h4>Materiales Compatibles</h4>
+                    <ul class="data-list">
+                        <li><span>Compatibles:</span> Acero, Aluminio, Latón, Moldes.</li>
+                        <li><span>Limitaciones:</span> Refrigeración por taladrina obligatoria.</li>
+                    </ul>
+                </div>
+                <div class="data-card">
+                    <h4>Requisitos de Instalación</h4>
+                    <ul class="data-list">
+                        <li><span>Espacio mín:</span> Cimentación reforzada obligatoria.</li>
+                        <li><span>Ventilación:</span> Extracción de niebla de aceite.</li>
+                        <li><span>Ruido:</span> Medio-Alto.</li>
+                    </ul>
+                </div>
+                <div class="data-card">
+                    <h4>Operación y Mantenimiento</h4>
+                    <ul class="data-list">
+                        <li><span>Mantenimiento:</span> Nivel de taladrina y viruta (diario).</li>
+                        <li><span>Consumibles:</span> Taladrina, herramientas metal.</li>
+                        <li><span>Complejidad:</span> <span class="complexity-tag complexity-high">Alto</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 5-8. 3D PRINTERS SUMMARY -->
+        <div class="machine-section">
+            <h2 style="font-size: 24px; margin-bottom: 10px;">5-8. FLOTA BAI-3D (P1S, A1, H2D, CERAMIC)</h2>
+            <div style="display: flex; gap: 10px; margin-bottom: 15px;">
+                <img src="05_3D_Printers_Fleet/p1s.jpg" style="width: 100px; height: 80px; object-fit: contain; border: 1px solid var(--border);">
+                <img src="05_3D_Printers_Fleet/wasp.jpg" style="width: 100px; height: 80px; object-fit: contain; border: 1px solid var(--border);">
+                <p style="font-size: 14px;"><strong>Descripción:</strong> Ecosistema de fabricación aditiva que abarca desde prototipado rápido en polímero hasta cerámica de 40cm.</p>
+            </div>
+
+            <div class="data-grid">
+                <div class="data-card">
+                    <h4>Especificaciones Técnicas</h4>
+                    <ul class="data-list">
+                        <li><span>Alimentación:</span> 220V monofásico | 0.5-1kW/ud</li>
+                        <li><span>Dimensiones:</span> Formato Desktop / Delta (Wasp).</li>
+                        <li><span>Área de trabajo:</span> 256mm (FDM) / Ø200x400mm (Ceram).</li>
+                    </ul>
+                </div>
+                <div class="data-card">
+                    <h4>Requisitos de Instalación</h4>
+                    <ul class="data-list">
+                        <li><span>Espacio:</span> Granja de impresoras (Estanterías).</li>
+                        <li><span>Ventilación:</span> Filtrado HEPA (ABS/PA).</li>
+                        <li><span>Ambiente:</span> Control de humedad para filamento.</li>
+                    </ul>
+                </div>
+                <div class="data-card">
+                    <h4>Operación y Mantenimiento</h4>
+                    <ul class="data-list">
+                        <li><span>Mantenimiento:</span> Limpieza de boquillas y camas.</li>
+                        <li><span>Consumibles:</span> Filamento, Arcilla, Boquillas.</li>
+                        <li><span>Complejidad:</span> <span class="complexity-tag complexity-low">Bajo</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 9. PLOTTER BAI-120 -->
+        <div class="machine-section">
+            <h2 style="font-size: 24px; margin-bottom: 10px;">9. PLOTTER DE VINILO BAI-120</h2>
+            <div class="data-grid">
+                <div class="data-card">
+                    <h4>Datos de Planta</h4>
+                    <ul class="data-list">
+                        <li><span>Alimentación:</span> 220V | Consumo despreciable.</li>
+                        <li><span>Ancho de boca:</span> 1260 mm</li>
+                        <li><span>Espacio:</span> Necesita zona de despeje frontal/trasera.</li>
+                        <li><span>Complejidad:</span> <span class="complexity-tag complexity-low">Bajo</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 10. TERMOFORMADORA B600 -->
+        <div class="machine-section">
+            <h2 style="font-size: 24px; margin-bottom: 10px;">10. TERMOFORMADORA BAI-B600</h2>
+            <div class="data-grid">
+                <div class="data-card">
+                    <h4>Especificaciones Técnicas</h4>
+                    <ul class="data-list">
+                        <li><span>Alimentación:</span> 220V | 5.0 kW</li>
+                        <li><span>Área de Formado:</span> 540 x 540 mm</li>
+                        <li><span>Peso:</span> 230 kg</li>
+                    </ul>
+                </div>
+                <div class="data-card">
+                    <h4>Instalación y Seguridad</h4>
+                    <ul class="data-list">
+                        <li><span>Ventilación:</span> Extracción obligatoria de humos plásticos.</li>
+                        <li><span>Riesgo:</span> Altas temperaturas superficiales.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div>© 2026 <strong>Building Architecture Institute</strong> - Oficina Técnica</div>
+            <div class="footer-logo">BAI | INDUSTRIAL PLANNING</div>
+        </footer>
+    </div>
+</body>
+</html>

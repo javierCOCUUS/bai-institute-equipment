@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ecosistema BTLx - Detalle Técnico Avanzado - BAI</title>
+    <link rel="stylesheet" href="../templates/master_style.css">
+    <style>
+        .tech-box {
+            background: #f4f7f9;
+            border-left: 5px solid var(--primary);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 4px 4px 0;
+        }
+        .process-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .process-item {
+            background: var(--white);
+            padding: 10px;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            font-size: 13px;
+            text-align: center;
+            font-weight: 600;
+        }
+        .highlight-text {
+            color: var(--accent);
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <div class="technical-sheet">
+        <header>
+            <div>
+                <div class="brand-title">BAI ADVANCED ENGINEERING</div>
+                <h1 class="machine-name">ESTÁNDAR BTLx: CONTINUIDAD DIGITAL</h1>
+                <div class="category-tag">Basado en el Estándar design2machine.com</div>
+            </div>
+            <div style="text-align: right;">
+                <div style="font-weight: 600;">Industry 4.0 Ready</div>
+                <div style="color: var(--text-muted); font-size: 14px;">Timber Construction XML</div>
+            </div>
+        </header>
+
+        <section>
+            <h2>BTLx: Más allá del G-Code</h2>
+            <p>
+                El **BTLx** es el sucesor moderno basado en XML del formato BTL clásico. Nuestras máquinas BAI implementan este estándar para eliminar la brecha entre el diseño arquitectónico (CAD) y la producción (CNC).
+            </p>
+
+            <div class="tech-box">
+                <h4>Capacidades de Geometría Libre</h4>
+                <p style="font-size: 14px;">
+                    A diferencia de otros formatos, el BTLx soporta **Contornos Libres (FreeContour)**, **Superficies Libres (FreeSurface)** y curvas **NURBS**. Esto permite que nuestras máquinas de 5 ejes ejecuten geometrías orgánicas y superficies complejas sin aproximaciones lineales.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Catálogo de Procesos Soportados</h2>
+            <div class="process-list">
+                <div class="process-item">SawCut (Serrado)</div>
+                <div class="process-item">Drilling (Taladrado)</div>
+                <div class="process-item">Slotting (Ranurado)</div>
+                <div class="process-item">Pocketing (Cajeado)</div>
+                <div class="process-item">Tenon (Espigas)</div>
+                <div class="process-item">Mortise (Mortajas)</div>
+                <div class="process-item">Dovetail (Cola Milano)</div>
+                <div class="process-item">BirdsMouth (Boca Pájaro)</div>
+                <div class="process-item">Lap (Solapes)</div>
+                <div class="process-item">Chamfer (Biselado)</div>
+                <div class="process-item">Scarf (Rayo Júpiter)</div>
+                <div class="process-item">Japanese Joints</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Trazabilidad y Seguridad Digital</h2>
+            <ul class="features-list">
+                <li><strong>Rastreo por GUID</strong>: Cada pieza del proyecto arquitectónico lleva un Identificador Único Global (GUID). Esto garantiza que la máquina sepa exactamente qué componente está procesando en cada momento.</li>
+                <li><strong>Integridad de Datos (XMLDSIG)</strong>: El ecosistema BAI soporta firmas digitales para asegurar que las especificaciones de diseño no han sido alteradas durante la transferencia.</li>
+                <li><strong>Compresión .btlz</strong>: Utilizamos contenedores comprimidos para una transferencia eficiente de proyectos masivos sin pérdida de metadatos.</li>
+                <li><strong>Validación por Esquema (.xsd)</strong>: Todos los archivos son validados contra el esquema oficial de design2machine antes de la ejecución para prevenir errores de producción.</li>
+            </ul>
+        </section>
+
+        <section style="margin-top: 30px; background: var(--bg-light); padding: 25px; border-radius: 4px;">
+            <h3>Flujo de Validación BAI</h3>
+            <p style="font-size: 15px;">
+                Implementamos el uso del **BTL Viewer** en el flujo de trabajo del laboratorio. Los investigadores pueden visualizar la representación 3D (X3D) de los mecanizados antes de encender la máquina, permitiendo una validación visual del 100% de los ensambles.
+            </p>
+        </section>
+
+        <footer>
+            <div>© 2026 <strong>Building Architecture Institute</strong> - Ecosistema Digital</div>
+            <div class="footer-logo">BTLx | DESIGN2MACHINE COMPATIBLE</div>
+        </footer>
+    </div>
+</body>
+</html>

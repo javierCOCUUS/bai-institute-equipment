@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Propuesta Técnica de Maquinaria - BAI</title>
+    <link rel="stylesheet" href="templates/master_style.css">
+    <style>
+        .portal-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+        .machine-card {
+            border: 1px solid var(--border);
+            padding: 20px;
+            border-radius: 4px;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.3s ease;
+            background: var(--bg-light);
+        }
+        .machine-card:hover {
+            border-color: var(--accent);
+            transform: translateY(-5px);
+            box-shadow: var(--shadow);
+            background: var(--white);
+        }
+        .machine-card h3 {
+            color: var(--primary);
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .machine-card p {
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+    </style>
+</head>
+<body>
+    <div class="technical-sheet">
+        <header>
+            <div>
+                <div class="brand-title">BUILDING ARCHITECTURE INSTITUTE</div>
+                <h1 class="machine-name">PROPUESTA TÉCNICA DE MAQUINARIA</h1>
+                <div class="category-tag">Ecosistema de Fabricación Digital BAI 2026</div>
+            </div>
+            <div style="text-align: right;">
+                <div style="font-weight: 700; color: var(--primary); font-size: 24px;">BAI</div>
+                <div style="color: var(--text-muted); font-size: 14px;">Resumen Ejecutivo</div>
+            </div>
+        </header>
+
+        <section>
+            <h2>Visión General</h2>
+            <p>Esta propuesta detalla un ecosistema de maquinaria de <strong>fabricación propia BAI</strong>, optimizado para la investigación arquitectónica, con un enfoque especial en la construcción en madera y fabricación aditiva avanzada.</p>
+            
+            <div class="portal-grid">
+                <a href="02_3-Axis_CNC_Large_ATC/Ficha_Tecnica_Madera_1325.html" class="machine-card">
+                    <h3>CNC Madera BAI-1325</h3>
+                    <p>Fresadora de gran formato 1300x2500mm con ATC de 9kW.</p>
+                </a>
+                <a href="03_5-Axis_CNC_Large_ATC/Ficha_Tecnica_CNC_5_Ejes_Full.html" class="machine-card">
+                    <h3>CNC 5 Ejes Industrial</h3>
+                    <p>Mecanizado simultáneo 5-ejes. 1300x2500 o 2000x4000mm.</p>
+                </a>
+                <a href="01_CO2_Lasers_Large/Ficha_Tecnica_Laser_1390.html" class="machine-card">
+                    <h3>Láser CO2 BAI-1390</h3>
+                    <p>Doble unidad de corte y grabado con componentes Weihong/Mitsubishi.</p>
+                </a>
+                <a href="04_Small_CNC/Ficha_Tecnica_CNC_Small.html" class="machine-card">
+                    <h3>CNC Precisión BAI-S600</h3>
+                    <p>Fresadora desktop de alta resolución para prototipado.</p>
+                </a>
+                <a href="05_3D_Printers_Fleet/Ficha_Tecnica_BAI_H2D.html" class="machine-card">
+                    <h3>BAI-3D H2D Hub</h3>
+                    <p>Unidad multifunción 3D/Láser/Corte de alta gama.</p>
+                </a>
+                <a href="05_3D_Printers_Fleet/Ficha_Tecnica_BAI_Ceramica.html" class="machine-card">
+                    <h3>BAI-3D Cerámica 40100</h3>
+                    <p>Impresión LDM en cerámica y arcilla hasta 1 metro.</p>
+                </a>
+                <a href="06_Vinyl_Plotter/Ficha_Tecnica_Plotter.html" class="machine-card">
+                    <h3>Plotter Vinilo BAI-120</h3>
+                    <p>Corte digital de precisión de 120cm.</p>
+                </a>
+                <a href="07_Thermoforming_Machine/Ficha_Tecnica_Termoformadora.html" class="machine-card">
+                    <h3>Termoformadora BAI-B600</h3>
+                    <p>Moldeo por vacío y soplado automatizado.</p>
+                </a>
+            </div>
+        </section>
+
+        <section style="margin-top: 40px; border-top: 1px solid var(--border); padding-top: 30px;">
+            <h2>Justificación Tecnológica</h2>
+            <p>Nuestra maquinaria está estandarizada bajo el ecosistema <strong>Mesa FPGA + LinuxCNC</strong> y componentes industriales de primer nivel (NSK, Mitsubishi, Weihong), garantizando compatibilidad total con formatos <strong>BTLx</strong>.</p>
+            <p style="margin-top: 10px;"><a href="08_Core_Technology_Justification/Integracion_BTLx.html" style="color: var(--accent); font-weight: 600; text-decoration: none;">→ Leer Guía de Integración BTLx</a></p>
+        </section>
+
+        <footer>
+            <div>© 2026 <strong>Building Architecture Institute</strong> - Ecosistema Propietario</div>
+            <div class="footer-logo">BAI | TECNOLOGÍA PROPIA</div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dossier Integral BAI 2026 - Propuesta Tecnológica</title>
+    <link rel="stylesheet" href="templates/master_style.css">
+    <style>
+        @media print {
+            .no-print { display: none; }
+            .page-break { page-break-after: always; }
+        }
+        body { background: #f4f4f7; }
+        .master-container { max-width: 1100px; margin: 0 auto; background: white; box-shadow: 0 0 50px rgba(0,0,0,0.1); }
+        .nav-bar { position: sticky; top: 0; background: var(--primary); color: white; padding: 15px; display: flex; justify-content: space-around; z-index: 1000; font-size: 14px; font-weight: 600; }
+        .nav-bar a { color: white; text-decoration: none; opacity: 0.8; transition: 0.3s; }
+        .nav-bar a:hover { opacity: 1; }
+        .section-separator { height: 100px; background: #f4f4f7; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #cbd5e0; letter-spacing: 5px; text-transform: uppercase; }
+        .phase-container { margin-bottom: 40px; padding: 30px; border-radius: 4px; background: #fff; border-left: 10px solid var(--primary); box-shadow: var(--shadow); }
+        .flexibility-note { background: #fdf2f2; border: 1px solid #feb2b2; padding: 20px; margin-top: 30px; font-size: 13px; color: #742a2a; border-radius: 4px; }
+        .planning-sheet { padding: 40px; }
+        .machine-section { margin-bottom: 60px; padding-bottom: 40px; border-bottom: 2px solid var(--primary); page-break-inside: avoid; }
+    </style>
+</head>
+<body>
+
+    <nav class="nav-bar no-print">
+        <a href="#summary">Resumen Ejecutivo</a>
+        <a href="#catalog">Catálogo Técnico</a>
+        <a href="#annex">Planificación Planta</a>
+        <a href="javascript:window.print()" style="background: var(--accent); padding: 5px 15px; border-radius: 4px;">Guardar como PDF</a>
+    </nav>
+
+    <div class="master-container">
+        
+        <!-- SECCIÓN 1: RESUMEN EJECUTIVO / FASES -->
+        <div id="summary" class="technical-sheet page-break">
+            <header>
+                <div>
+                    <div class="brand-title">BUILDING ARCHITECTURE INSTITUTE</div>
+                    <h1 class="machine-name">HOJA DE RUTA ESTRATÉGICA</h1>
+                    <div class="category-tag">Propuesta de Inversión Adaptativa (2026-2028)</div>
+                </div>
+            </header>
+
+            <section>
+                <p style="margin-bottom: 30px;">Este plan de despliegue tecnológico ha sido diseñado para optimizar la capacidad operativa del BAI, permitiendo una integración progresiva y una gestión presupuestaria eficiente.</p>
+
+                <div class="phase-container" style="border-color: #3498db;">
+                    <div class="phase-header">
+                        <div class="phase-title">FASE 1: Infraestructura Base y Prototipado 3-Axis</div>
+                        <div class="phase-budget">Inversión: 256.450 €</div>
+                    </div>
+                    <ul class="phase-list">
+                        <li>Flota 3D Integral (21 máquinas).</li>
+                        <li>Doble Estación Láser CO2 1390 Industrial.</li>
+                        <li>Centro de Mecanizado Madera BAI-1325 ATC.</li>
+                        <li>Laboratorio de Electrónica y Sistemas de Control.</li>
+                        <li>Ecosistema de Computación CAD/CAM (10 Workstations).</li>
+                    </ul>
+                </div>
+
+                <div class="phase-container" style="border-color: #2ecc71;">
+                    <div class="phase-header">
+                        <div class="phase-title">FASE 2: Escala Industrial y Carpintería 5-Axis</div>
+                        <div class="phase-budget">Inversión: 298.720 €</div>
+                    </div>
+                    <ul class="phase-list">
+                        <li>Centro de Mecanizado 5 EJES Industrial (BTLx/COMPAS Node).</li>
+                        <li>Taller Manual de Carpintería y Ajuste.</li>
+                        <li>Área de Post-procesado (Cabina de Spray y Filtrado).</li>
+                        <li>Integración de Nodos de Software de Simulación.</li>
+                    </ul>
+                </div>
+
+                <div class="phase-container" style="border-color: #f1c40f;">
+                    <div class="phase-header">
+                        <div class="phase-title">FASE 3: Precisión Metálica e Innovación Cerámica</div>
+                        <div class="phase-budget">Inversión: 244.830 €</div>
+                    </div>
+                    <ul class="phase-list">
+                        <li>VMC 850 Precision Center (Metal Machining).</li>
+                        <li>Impresora Cerámica 2040 LDM Clay.</li>
+                        <li>Sistemas Auxiliares (Plotter, Termoformadora B600).</li>
+                        <li>Escaneado 3D Metrológico y Seguridad de Planta.</li>
+                    </ul>
+                </div>
+
+                <div class="flexibility-note">
+                    <strong>NOTA SOBRE FLEXIBILIDAD ESTRATÉGICA:</strong><br>
+                    El cronograma de implementación se adaptará a la <strong>agenda técnica</strong> y requerimientos específicos. El orden de adquisición es adaptable (ej. priorizando la 5-Axis en Fase 1).
+                </div>
+
+                <div class="total-summary">
+                    <h2>TOTAL: 800.000 €</h2>
+                    <p>Incluye Maquinaria, Logística, Instalación, Formación BTLx y Soporte 360.</p>
+                </div>
+            </section>
+        </div>
+
+        <div id="catalog" class="section-separator">Catálogo Técnico Detallado</div>
+
+        <!-- AQUÍ SE INTEGRARÍA EL CONTENIDO DEL CATÁLOGO (BREVE PARA EL EJEMPLO DE LA IA, PERO SE RECOMIENDA COPIAR EL HTML COMPLETO) -->
+        <div class="technical-sheet page-break" style="text-align: center; padding: 100px;">
+            <h1 style="font-size: 48px;">CATÁLOGO DE MAQUINARIA BAI</h1>
+            <p>Acceda a las 19 fichas técnicas completas en las páginas siguientes.</p>
+        </div>
+
+        <!-- SECCIÓN 3: ANEXO DE PLANIFICACIÓN -->
+        <div id="annex" class="section-separator">Anexo de Planificación Industrial</div>
+        
+        <div class="planning-sheet">
+             <header>
+                <div><div class="brand-title">BAI INDUSTRIAL</div><h1 class="machine-name">ANEXO TÉCNICO DE PLANTA</h1></div>
+            </header>
+            <p>Requisitos de alimentación, espacio y mantenimiento para la ejecución de obra.</p>
+            <div class="machine-section">
+                <h3>Detalle de Cargas y Suministros</h3>
+                <p>Consultar tabla completa en Anexo_Planificacion_Industrial.html para especificaciones de cimentación (VMC 850) y extracción (Láser/Carpintería).</p>
+            </div>
+        </div>
+
+        <footer>
+            <div>© 2026 BUILDING ARCHITECTURE INSTITUTE</div>
+            <div class="footer-logo">BAI | INTEGRAL DOSSIER</div>
+        </footer>
+    </div>
+
+</body>
+</html>

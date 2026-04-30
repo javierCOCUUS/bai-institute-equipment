@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+:root {
+    --primary: #003366;
+    --accent: #00A3FF;
+    --text-main: #2C3E50;
+    --text-muted: #7F8C8D;
+    --bg-light: #F8F9FA;
+    --white: #FFFFFF;
+    --border: #E0E0E0;
+    --shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--bg-light);
+    color: var(--text-main);
+    line-height: 1.6;
+    padding: 40px;
+}
+
+.technical-sheet {
+    max-width: 900px;
+    margin: 0 auto;
+    background: var(--white);
+    padding: 60px;
+    border-radius: 2px;
+    box-shadow: var(--shadow);
+    border-top: 8px solid var(--primary);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 50px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 30px;
+}
+
+.brand-title {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--primary);
+}
+
+.machine-name {
+    font-size: 42px;
+    font-weight: 700;
+    color: var(--primary);
+    margin-top: 10px;
+    line-height: 1.1;
+}
+
+.category-tag {
+    background: var(--primary);
+    color: var(--white);
+    padding: 4px 12px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Content Layout */
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--primary);
+    margin-bottom: 20px;
+    border-left: 4px solid var(--accent);
+    padding-left: 15px;
+}
+
+/* Specs Table */
+.specs-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.specs-table tr {
+    border-bottom: 1px solid var(--border);
+}
+
+.specs-table td {
+    padding: 12px 0;
+    font-size: 15px;
+}
+
+.specs-table td:first-child {
+    font-weight: 600;
+    color: var(--text-muted);
+    width: 40%;
+}
+
+.specs-table td:last-child {
+    font-weight: 400;
+    color: var(--text-main);
+    text-align: right;
+}
+
+/* High-tech Features */
+.features-list {
+    list-style: none;
+}
+
+.features-list li {
+    margin-bottom: 15px;
+    padding-left: 25px;
+    position: relative;
+}
+
+.features-list li::before {
+    content: "•";
+    color: var(--accent);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    line-height: 1;
+}
+
+/* Footer / Disclaimer */
+footer {
+    margin-top: 60px;
+    padding-top: 30px;
+    border-top: 1px solid var(--border);
+    font-size: 12px;
+    color: var(--text-muted);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    font-weight: 700;
+    color: var(--primary);
+}
+
+/* Machine Photo */
+.photo-container {
+    margin-bottom: 40px;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    background: #f0f0f0;
+    max-height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.machine-photo {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.machine-photo:hover {
+    transform: scale(1.02);
+}
+
+/* Print Optimization */
+@media print {
+    body {
+        padding: 0;
+        background: none;
+    }
+    .technical-sheet {
+        box-shadow: none;
+        max-width: 100%;
+        margin: 0;
+        padding: 40px;
+    }
+}

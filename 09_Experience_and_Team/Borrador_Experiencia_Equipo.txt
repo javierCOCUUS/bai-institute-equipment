@@ -1,0 +1,62 @@
+================================================================================
+BORRADOR: ANEXO DE EXPERIENCIA PERSONAL Y TRAYECTORIA INSTITUCIONAL
+================================================================================
+
+Este documento sirve como base para describir la solvencia técnica y profesional 
+detrás de la propuesta del Building Architecture Institute (BAI).
+
+--------------------------------------------------------------------------------
+1. QUIÉNES SOMOS / VISIÓN GENERAL
+--------------------------------------------------------------------------------
+[Escribir aquí una breve introducción sobre la empresa o el equipo]
+Ejemplo: Somos especialistas en la integración de flujos de trabajo de fabricación 
+digital para la industria de la arquitectura y la construcción, con un enfoque 
+específico en la transición hacia la Arquitectura 4.0.
+
+--------------------------------------------------------------------------------
+2. FORMACIÓN Y EXPERIENCIA PERSONAL
+--------------------------------------------------------------------------------
+[Detallar aquí tu formación académica y trayectoria profesional]
+* Título/Especialidad: _________________________________
+* Años de experiencia en el sector: _____________________
+
+--------------------------------------------------------------------------------
+3. TRAYECTORIA EN LABORATORIOS DE FABRICACIÓN (FAB LABS)
+--------------------------------------------------------------------------------
+Hitos principales:
+* Montaje Integral del Laboratorio de Fabricación de la Facultad de Arquitectura.
+* Duración: [Anotar aquí cuántos años estuviste montando/gestionando el lab].
+* Responsabilidades: Diseño de layout, selección de maquinaria, formación de 
+  personal y desarrollo de protocolos de seguridad y mantenimiento.
+
+[Añadir más detalles sobre los retos superados en este periodo]
+
+--------------------------------------------------------------------------------
+4. REFERENCIAS Y VENTAS INSTITUCIONALES (UPNA / UNAV)
+--------------------------------------------------------------------------------
+Contamos con una trayectoria probada en el suministro y puesta en marcha de 
+maquinaria similar en centros de investigación y universidades de prestigio:
+
+* Universidad Pública de Navarra (UPNA): 
+  Suministro de [Mencionar maquinaria similar: Láser, CNC, 3D...] 
+  Proyecto: [Describir brevemente para qué se usa allí]
+
+* Universidad de Navarra (UNAV): 
+  Integración de [Mencionar maquinaria...]
+  Impacto: [Ej: Mejora en la capacidad de prototipado de los alumnos...]
+
+--------------------------------------------------------------------------------
+5. GALERÍA DE IMÁGENES (Pendiente)
+--------------------------------------------------------------------------------
+[Sugerencia: Sube las fotos de los montajes realizados o de las máquinas en 
+funcionamiento en las universidades a la carpeta '09_Experience_and_Team']
+
+FOTOS PENDIENTES:
+- Foto montaje Lab Arquitectura
+- Foto entrega maquinaria UPNA
+- Foto entrega maquinaria UNAV
+- Foto personal trabajando en laboratorio
+
+================================================================================
+FIN DEL BORRADOR
+================================================================================

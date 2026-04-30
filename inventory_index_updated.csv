@@ -1,0 +1,9 @@
+ID,Category,Machine_Name,Key_Specs,Quantity,Technical_Doc_Link,Status
+1,Laser CO2,Large CO2 Laser (Exceeds MIT standard),Mesa 7i95 + LinuxCNC - Area > 1300x900mm,2,08_Core_Technology_Justification/Mesa_7i95_LinuxCNC_Justification.md,Drafting
+2,CNC 3-Axis,Large 3-Axis CNC with ATC,Mesa 7i95 + LinuxCNC - Large Format ATC,1,08_Core_Technology_Justification/Mesa_7i95_LinuxCNC_Justification.md,Drafting
+3,CNC 5-Axis,Large 5-Axis CNC with ATC,Mesa 7i95 + LinuxCNC - 5 Axis ATC,1,08_Core_Technology_Justification/Mesa_7i95_LinuxCNC_Justification.md,Drafting
+4,CNC Small,Precision Small CNC,Mesa 7i95 + LinuxCNC - High Precision,1,08_Core_Technology_Justification/Mesa_7i95_LinuxCNC_Justification.md,Drafting
+5,3D Printer,Fleet of FDM Printers,Standard reliable FDM (e.g. Prusa/Bambu),20,,Pending Specs
+6,3D Printer,Large/Ceramic 3D Printer,TBD: Large Format or Ceramic Extruder,1,,Pending Specs
+7,Vinyl Plotter,Professional Vinyl Plotter,High precision cutting,1,,Pending Specs
+8,Thermoforming,Thermoforming Machine,Industrial/Professional Scale,1,,Pending Specs

@@ -1,0 +1,16 @@
+﻿ID,Category,Machine_Name,Key_Specs,Quantity,Price_Range_Est,Technical_Doc_Link,Status
+1,Laser CO2,Láser CO2 BAI-1390,130W - 1300x900mm,2,"15.000€ - 30.000€",01_CO2_Lasers_Large/Ficha_Tecnica_Laser_1390.html,Premium Ready
+2,CNC 3-Axis,CNC Madera BAI-1325,ATC - 9kW - 1300x2500mm,1,"20.000€ - 35.000€",02_3-Axis_CNC_Large_ATC/Ficha_Tecnica_Madera_1325.html,Premium Ready
+3,CNC 5-Axis,CNC 5 Ejes Industrial,Simultáneo - BTLx support,1,"80.000€ - 250.000€",03_5-Axis_CNC_Large_ATC/Ficha_Tecnica_CNC_5_Ejes_Full.html,Premium Ready
+4,Metal CNC,BAI-VMC850 Precision,Vertical Center - 5 Tons,1,"40.000€ - 60.000€",04_Small_CNC/Ficha_Tecnica_CNC_Small.html,Premium Ready
+5,3D Printer P1S,BAI-3D P1S (Fleet),Enclosed FDM - High Speed,10,"5.000€ (500€/ud)",05_3D_Printers_Fleet/Ficha_Tecnica_BAI_P1S.html,Premium Ready
+6,3D Printer A1,BAI-3D A1 (Fleet),Open FDM - Formative,5,"2.000€ (400€/ud)",05_3D_Printers_Fleet/Ficha_Tecnica_BAI_A1.html,Premium Ready
+7,3D Printer H2D,BAI-3D H2D Hub,3-in-1 Multifunction,5,"9.000€ (1800€/ud)",05_3D_Printers_Fleet/Ficha_Tecnica_BAI_H2D.html,Premium Ready
+8,3D Printer Ceramic,BAI-3D Cerámica 2040,LDM Clay Printing,1,"4.500€ - 6.500€",05_3D_Printers_Fleet/Ficha_Tecnica_BAI_Ceramica.html,Premium Ready
+9,Vinyl Plotter,Plotter de Vinilo BAI-120,120cm - Optical Sensor,1,"1.200€ - 2.500€",06_Vinyl_Plotter/Ficha_Tecnica_Plotter.html,Premium Ready
+10,Thermoforming,Termoformadora BAI-B600,600x600 - PLC Control,1,"3.500€ - 5.500€",07_Thermoforming_Machine/Ficha_Tecnica_Termoformadora.html,Premium Ready
+11,Electronics,Laboratorio Electrónica,6 Puestos + Osciloscopios,1 set,"5.000€ - 8.000€",Catalogo_Completo_BAI.html#P17,Premium Ready
+12,Manual Workshop,Taller Carpintería,Sierras - Bancos - Herramientas,1 set,"10.000€ - 20.000€",Catalogo_Completo_BAI.html#P18,Premium Ready
+13,Post-processing,Área de Acabados,Cabina Spray - Extracción - Comp,1 set,"6.000€ - 12.000€",Catalogo_Completo_BAI.html#P18,Premium Ready
+14,Computing,Estaciones CAD/CAM,10 Workstations (Hardware only),10,"12.000€ (1.200€/ud)",Catalogo_Completo_BAI.html#P17,Premium Ready
+15,Core Tech,Integración BTLx / COMPAS,Advanced Software Node,-,-,08_Core_Technology_Justification/,Premium Ready
