@@ -59,6 +59,57 @@
             color: var(--primary);
             margin-bottom: 15px;
         }
+
+        /* Catalog specific styles */
+        .eth-branding {
+            color: #2c3e50;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .eth-branding span {
+            background: #2c3e50;
+            color: white;
+            padding: 2px 8px;
+            font-size: 12px;
+            border-radius: 2px;
+        }
+        .info-card {
+            background: var(--bg-light);
+            padding: 20px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        .info-card h3 {
+            color: var(--primary);
+            margin-bottom: 10px;
+            border-bottom: 2px solid var(--accent);
+            display: inline-block;
+        }
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .process-card {
+            background: white;
+            padding: 15px;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+        }
+        .process-card h4 {
+            font-size: 14px;
+            color: var(--accent);
+            margin-bottom: 5px;
+        }
+        .process-card p {
+            font-size: 12px;
+            line-height: 1.4;
+        }
     </style>
 </head>
 <body>
@@ -165,7 +216,137 @@
             </div>
 
             <div class="justification-section">
-                <h3>4. Conclusión y Objetivos</h3>
+                <h3>4. Detalle Técnico de Maquinaria Propuesta</h3>
+                <p style="margin-bottom: 30px;">A continuación se detallan las especificaciones técnicas requeridas para cada uno de los nodos principales de fabricación del instituto.</p>
+
+                <!-- LÁSER 1390 -->
+                <div class="technical-sheet page-break" style="box-shadow: none; padding: 0; border: none; margin-bottom: 60px;">
+                    <header style="margin-bottom: 20px;">
+                        <div><div class="brand-title">ESPECIFICACIONES DE REQUERIMIENTO</div><h2 style="font-size: 32px; border:none; padding:0;">LÁSER CO2 BAI-1390</h2><div class="category-tag">Corte y Grabado de Alta Precisión</div></div>
+                    </header>
+                    <div class="photo-container"><img src="01_CO2_Lasers_Large/laserCO2.jpg" class="machine-photo"></div>
+                    <div class="content-grid">
+                        <section><h2>Especificaciones Técnicas</h2>
+                            <table class="specs-table">
+                                <tr><td>Área de Trabajo</td><td>1300 x 900 mm</td></tr>
+                                <tr><td>Potencia del Láser</td><td>130W / 150W</td></tr>
+                                <tr><td>Sistema de Control</td><td>Integración Industrial Abierta</td></tr>
+                                <tr><td>Motores y Drivers</td><td>Servo System Alta Velocidad</td></tr>
+                                <tr><td>Guías Lineales</td><td>Lineales de Precisión (NSK/Similar)</td></tr>
+                                <tr><td>Velocidad de Corte</td><td>0 - 3,600 mm/min</td></tr>
+                            </table>
+                        </section>
+                        <section><h2>Capacidades del Sistema</h2>
+                            <ul class="features-list">
+                                <li><strong>Versatilidad</strong>: Madera, Acrílico, MDF, Cuero, Piedra, Cristal.</li>
+                                <li><strong>Óptica</strong>: Lentes de alta densidad energética.</li>
+                                <li><strong>Conectividad</strong>: USB / Red (Soporta AI, DXF, DWG).</li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+
+                <!-- CNC MADERA 1325 -->
+                <div class="technical-sheet page-break" style="box-shadow: none; padding: 0; border: none; margin-bottom: 60px;">
+                    <header style="margin-bottom: 20px;">
+                        <div><div class="brand-title">ESPECIFICACIONES DE REQUERIMIENTO</div><h2 style="font-size: 32px; border:none; padding:0;">CNC MADERA BAI-1325</h2><div class="category-tag">Mecanizado y Tallado de Alta Potencia</div></div>
+                    </header>
+                    <div class="photo-container"><img src="02_3-Axis_CNC_Large_ATC/CNC-3Axis-ATC.jpg" class="machine-photo"></div>
+                    <div class="content-grid">
+                        <section><h2>Especificaciones Técnicas</h2>
+                            <table class="specs-table">
+                                <tr><td>Área (X,Y,Z)</td><td>1300 x 2500 x 250 mm</td></tr>
+                                <tr><td>Potencia (Spindle)</td><td>9.0 kW (Aire)</td></tr>
+                                <tr><td>Velocidad</td><td>1 - 24,000 RPM</td></tr>
+                                <tr><td>Control</td><td>LinuxCNC + Mesa FPGA (BTLx Ready)</td></tr>
+                                <tr><td>Tipo de Mesa</td><td>Succión Vacío + Ranuras T</td></tr>
+                            </table>
+                        </section>
+                        <section><h2>Características Industriales</h2>
+                            <ul class="features-list">
+                                <li><strong>ATC</strong>: Cambio Automático de Herramientas.</li>
+                                <li><strong>BTLx Ready</strong>: Integración nativa con arquitectura en madera.</li>
+                                <li><strong>Lubricación</strong>: Sistema centralizado automático.</li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+
+                <!-- CNC 5 EJES -->
+                <div class="technical-sheet page-break" style="box-shadow: none; padding: 0; border: none; margin-bottom: 60px;">
+                    <header style="margin-bottom: 20px;">
+                        <div><div class="brand-title">ESPECIFICACIONES DE REQUERIMIENTO</div><h2 style="font-size: 32px; border:none; padding:0;">CNC 5 EJES INDUSTRIAL</h2><div class="category-tag">Mecanizado Simultáneo 5-Axis</div></div>
+                    </header>
+                    <div class="photo-container"><img src="03_5-Axis_CNC_Large_ATC/CNC5axis.jpg" class="machine-photo"></div>
+                    <div class="content-grid">
+                        <section><h2>Capacidades de Ejes</h2>
+                            <table class="specs-table">
+                                <tr><td>Área Estándar</td><td>1300 x 2500 mm</td></tr>
+                                <tr><td>Eje A (Inclinación)</td><td>Â±120°</td></tr>
+                                <tr><td>Eje C (Rotación)</td><td>Â±360°</td></tr>
+                            </table>
+                        </section>
+                        <section><h2>Ventajas Estratégicas</h2>
+                            <ul class="features-list">
+                                <li><strong>RTCP Real-Time</strong>: Gestión dinámica del punto de herramienta.</li>
+                                <li><strong>Cinemática</strong>: Movimiento simultáneo en los 5 ejes.</li>
+                                <li><strong>BTLx</strong>: Preparada para los retos de la Arquitectura 4.0.</li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+
+                <!-- 3D PRINTERS SUMMARY -->
+                <div class="technical-sheet page-break" style="box-shadow: none; padding: 0; border: none; margin-bottom: 60px;">
+                    <header style="margin-bottom: 20px;">
+                        <div><div class="brand-title">ESPECIFICACIONES DE REQUERIMIENTO</div><h2 style="font-size: 32px; border:none; padding:0;">FLOTA DE IMPRESIÓN 3D</h2><div class="category-tag">Fabricación Aditiva Polimérica y Cerámica</div></div>
+                    </header>
+                    <div class="content-grid">
+                        <section>
+                            <div class="info-card">
+                                <h3>BAI-3D P1S / A1</h3>
+                                <p style="font-size: 13px;">Unidades de alta velocidad para prototipado rápido y formación masiva. Sistema cerrado para materiales técnicos y abierto para docencia básica.</p>
+                            </div>
+                        </section>
+                        <section>
+                            <div class="info-card">
+                                <h3>BAI-3D Cerámica 2040</h3>
+                                <p style="font-size: 13px;">Extrusión de materiales densos (arcilla, gres) mediante tecnología LDM para investigación matérica arquitectónica.</p>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+                <!-- VMC & AUXILIARY -->
+                <div class="technical-sheet page-break" style="box-shadow: none; padding: 0; border: none; margin-bottom: 60px;">
+                    <header style="margin-bottom: 20px;">
+                        <div><div class="brand-title">ESPECIFICACIONES DE REQUERIMIENTO</div><h2 style="font-size: 32px; border:none; padding:0;">PRECISIÓN Y ÁREAS AUXILIARES</h2><div class="category-tag">Mecanizado de Metal y Laboratorios de Apoyo</div></div>
+                    </header>
+                    <div class="content-grid">
+                        <section>
+                            <div class="info-card">
+                                <h3>VMC 850 Precision</h3>
+                                <p style="font-size: 13px;">Centro de mecanizado vertical de 5 toneladas para metales ferrosos y moldes de inyección, garantizando repetibilidad de 0.004 mm.</p>
+                            </div>
+                            <div class="info-card">
+                                <h3>Laboratorio de Electrónica</h3>
+                                <p style="font-size: 13px;">6 puestos de soldadura y diagnóstico equipados con osciloscopios y kits de desarrollo para sistemas embebidos.</p>
+                            </div>
+                        </section>
+                        <section>
+                            <div class="info-card">
+                                <h3>Taller Manual y Acabados</h3>
+                                <p style="font-size: 13px;">Equipamiento pesado de carpintería manual, bancos de ajuste y cabina de post-procesado con flujo laminar para acabados premium.</p>
+                            </div>
+                            <div class="info-card">
+                                <h3>Corte Digital y Vacío</h3>
+                                <p style="font-size: 13px;">Plotter de vinilo de gran formato (120cm) y termoformadora industrial para moldeo de plásticos y resinas.</p>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+
+                <h3>5. Conclusión y Objetivos</h3>
                 <p>La adopción de este equipamiento transformará al BAI en un centro de referencia internacional en la red de Fab Labs, permitiendo no solo la docencia de alta calidad, sino la investigación de frontera en sistemas constructivos industrializados y sostenibles.</p>
             </div>
         </section>
