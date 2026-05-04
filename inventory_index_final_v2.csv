@@ -1,7 +1,7 @@
 ﻿ID,Category,Machine_Name,Key_Specs,Quantity,Price_Range_Est,Technical_Doc_Link,Status
 1,Laser CO2,Láser CO2 BAI-1390,130W - 1300x900mm,2,"15.000€ - 30.000€",01_CO2_Lasers_Large/Ficha_Tecnica_Laser_1390.html,Premium Ready
 2,CNC 3-Axis,CNC Madera BAI-1325,ATC - 9kW - 1300x2500mm,1,"20.000€ - 35.000€",02_3-Axis_CNC_Large_ATC/Ficha_Tecnica_Madera_1325.html,Premium Ready
-3,CNC 5-Axis,CNC 5 Ejes Industrial,Simultáneo - BTLx support,1,"80.000€ - 250.000€",03_5-Axis_CNC_Large_ATC/Ficha_Tecnica_CNC_5_Ejes_Full.html,Premium Ready
+3,CNC 5-Axis,CNC 5 Ejes Industrial,Simultáneo - BTLx support,1,"180.000€ - 250.000€",03_5-Axis_CNC_Large_ATC/Ficha_Tecnica_CNC_5_Ejes_Full.html,Premium Ready
 4,Metal CNC,BAI-VMC850 Precision,Vertical Center - 5 Tons,1,"40.000€ - 60.000€",04_Small_CNC/Ficha_Tecnica_CNC_Small.html,Premium Ready
 5,3D Printer P1S,BAI-3D P1S (Fleet),Enclosed FDM - High Speed,10,"5.000€ (500€/ud)",05_3D_Printers_Fleet/Ficha_Tecnica_BAI_P1S.html,Premium Ready
 6,3D Printer A1,BAI-3D A1 (Fleet),Open FDM - Formative,5,"2.000€ (400€/ud)",05_3D_Printers_Fleet/Ficha_Tecnica_BAI_A1.html,Premium Ready
