@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Requerimientos Técnicos y Plan de Equipamiento - BAI</title>
+    <link rel="stylesheet" href="templates/master_style.css">
+    <style>
+        .page-break { page-break-after: always; }
+        .neutral-box {
+            background: var(--bg-light);
+            padding: 25px;
+            border-radius: 4px;
+            margin-bottom: 30px;
+            border-left: 5px solid var(--primary);
+        }
+        .phase-container {
+            margin-bottom: 30px;
+            padding: 25px;
+            border-radius: 4px;
+            background: white;
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow);
+        }
+        .phase-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 10px;
+        }
+        .phase-title { font-size: 20px; font-weight: 700; color: var(--primary); }
+        .phase-budget { font-size: 18px; font-weight: 700; color: var(--accent); }
+        
+        .inventory-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            font-size: 13px;
+        }
+        .inventory-table th {
+            background: var(--primary);
+            color: white;
+            padding: 12px;
+            text-align: left;
+        }
+        .inventory-table td {
+            padding: 10px;
+            border-bottom: 1px solid var(--border);
+        }
+        .inventory-table tr:nth-child(even) { background: #fcfcfc; }
+        
+        .justification-section {
+            margin-top: 40px;
+            line-height: 1.8;
+        }
+        .justification-section h3 {
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="technical-sheet">
+        <header>
+            <div>
+                <div class="brand-title">BUILDING ARCHITECTURE INSTITUTE</div>
+                <h1 class="machine-name">INFORME DE NECESIDADES TÉCNICAS</h1>
+                <div class="category-tag">Equipamiento y Hoja de Ruta 2026-2028</div>
+            </div>
+            <div style="text-align: right;">
+                <div style="font-weight: 700; color: var(--primary); font-size: 24px;">BAI</div>
+                <div style="color: var(--text-muted); font-size: 14px;">Documento Programático</div>
+            </div>
+        </header>
+
+        <section>
+            <div class="neutral-box">
+                <p>Este documento describe la infraestructura tecnológica necesaria para la puesta en marcha del <strong>Building Architecture Institute (BAI)</strong>. El objetivo es dotar al instituto de un ecosistema de fabricación digital de vanguardia, capaz de abordar retos en arquitectura paramétrica, construcción en madera avanzada y fabricación aditiva de gran escala.</p>
+            </div>
+
+            <h2>1. Hoja de Ruta Estratégica (3 Años)</h2>
+            <p style="margin-bottom: 20px;">Se propone un despliegue progresivo dividido en tres fases para asegurar la asimilación tecnológica y una gestión presupuestaria eficiente.</p>
+
+            <div class="phase-container">
+                <div class="phase-header">
+                    <div class="phase-title">FASE 1: Infraestructura Base y Prototipado</div>
+                    <div class="phase-budget">Est. 256.000 €</div>
+                </div>
+                <ul class="features-list">
+                    <li>Despliegue de flota 3D (20+ unidades) para docencia masiva.</li>
+                    <li>Estación de corte láser industrial para prototipado rápido.</li>
+                    <li>Centro de mecanizado CNC de 3 ejes para madera y paneles.</li>
+                    <li>Laboratorio de electrónica y estaciones de trabajo CAD/CAM.</li>
+                </ul>
+            </div>
+
+            <div class="phase-container">
+                <div class="phase-header">
+                    <div class="phase-title">FASE 2: Escala Industrial y Estructural</div>
+                    <div class="phase-budget">Est. 300.000 €</div>
+                </div>
+                <ul class="features-list">
+                    <li>Integración de CNC de 5 ejes para geometrías complejas.</li>
+                    <li>Taller de carpintería pesada y área de acabados industriales.</li>
+                    <li>Sistemas de aspiración y seguridad de planta de gran formato.</li>
+                </ul>
+            </div>
+
+            <div class="phase-container">
+                <div class="phase-header">
+                    <div class="phase-title">FASE 3: Innovación y Precisión Matérica</div>
+                    <div class="phase-budget">Est. 244.000 €</div>
+                </div>
+                <ul class="features-list">
+                    <li>Mecanizado de metales de alta precisión (VMC).</li>
+                    <li>Impresión 3D cerámica de gran escala (LDM).</li>
+                    <li>Escaneado 3D metrológico y sistemas auxiliares (Termoformado/Vinilo).</li>
+                </ul>
+            </div>
+
+            <div class="page-break"></div>
+
+            <div class="justification-section">
+                <h3>2. Justificación Técnica: El Estándar BTLx</h3>
+                <p>Para un instituto de arquitectura de vanguardia, la interoperabilidad es crítica. El flujo de trabajo no puede limitarse a códigos de máquina cerrados (G-Code estándar). Es imperativo que la maquinaria propuesta tenga capacidad de interpretación de archivos <strong>BTLx (Building Timber Language)</strong>.</p>
+                <p>Este estándar permite:</p>
+                <ul class="features-list">
+                    <li>Transferencia directa de la intención de diseño desde software BIM (Rhino/Grasshopper, Cadwork, SEMA).</li>
+                    <li>Ejecución de uniones complejas (colas de milano, ensambles japoneses) con precisión milimétrica.</li>
+                    <li>Gestión semántica de las piezas, permitiendo el rastreo y la optimización de material en tiempo real.</li>
+                </ul>
+                <p>En consecuencia, los sistemas de control de las máquinas CNC deben ser abiertos y configurables para soportar estos nodos de software avanzado.</p>
+
+                <h3 style="margin-top: 40px;">3. Propuesta de Inventario y Presupuesto</h3>
+                <table class="inventory-table">
+                    <thead>
+                        <tr>
+                            <th>Categoría</th>
+                            <th>Equipamiento Propuesto</th>
+                            <th>Cant.</th>
+                            <th>Rango de Precio Est.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Corte Láser</td><td>Láser CO2 Industrial (1300x900mm)</td><td>2</td><td>15.000€ - 30.000€</td></tr>
+                        <tr><td>CNC Madera</td><td>CNC 3 Ejes (ATC - 9kW)</td><td>1</td><td>20.000€ - 35.000€</td></tr>
+                        <tr><td>CNC Avanzada</td><td>CNC 5 Ejes Industrial (Simultáneo)</td><td>1</td><td>80.000€ - 250.000€</td></tr>
+                        <tr><td>Mecanizado Metal</td><td>Centro Vertical de Precisión (VMC)</td><td>1</td><td>40.000€ - 60.000€</td></tr>
+                        <tr><td>Impresión 3D</td><td>Flota FDM Cerrada (Alta Velocidad)</td><td>10</td><td>5.000€</td></tr>
+                        <tr><td>Impresión 3D</td><td>Flota FDM Abierta (Formación)</td><td>5</td><td>2.000€</td></tr>
+                        <tr><td>Impresión 3D</td><td>Hub Multifunción (3D/Láser/Corte)</td><td>5</td><td>9.000€</td></tr>
+                        <tr><td>Impresión 3D</td><td>Cerámica LDM (Gran Escala)</td><td>1</td><td>4.500€ - 6.500€</td></tr>
+                        <tr><td>Corte Digital</td><td>Plotter de Vinilo (120cm)</td><td>1</td><td>1.200€ - 2.500€</td></tr>
+                        <tr><td>Moldeo</td><td>Termoformadora Industrial (600x600)</td><td>1</td><td>3.500€ - 5.500€</td></tr>
+                        <tr><td>Electrónica</td><td>Laboratorio (6 puestos equipados)</td><td>1 set</td><td>5.000€ - 8.000€</td></tr>
+                        <tr><td>Taller</td><td>Herramental Carpintería y Acabados</td><td>1 set</td><td>16.000€ - 32.000€</td></tr>
+                        <tr><td>Computación</td><td>Workstations CAD/CAM (10 unidades)</td><td>10</td><td>12.000€</td></tr>
+                    </tbody>
+                </table>
+                <div style="margin-top: 20px; font-weight: 700; text-align: right; font-size: 18px;">
+                    PRESUPUESTO TOTAL ESTIMADO: 800.000 €
+                </div>
+            </div>
+
+            <div class="justification-section">
+                <h3>4. Conclusión y Objetivos</h3>
+                <p>La adopción de este equipamiento transformará al BAI en un centro de referencia internacional en la red de Fab Labs, permitiendo no solo la docencia de alta calidad, sino la investigación de frontera en sistemas constructivos industrializados y sostenibles.</p>
+            </div>
+        </section>
+
+        <footer>
+            <div>Propuesta de Equipamiento Técnico - Building Architecture Institute</div>
+            <div class="footer-logo">BAI | TECNOLOGÍA Y ARQUITECTURA</div>
+        </footer>
+    </div>
+</body>
+</html>
