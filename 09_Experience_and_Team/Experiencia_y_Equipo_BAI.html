@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta charset="UTF-8">
+    <title>Experiencia y Equipo - Cocuus System Ibérica | BAI 2026</title>
+    <link rel="stylesheet" href="../templates/master_style.css">
+    <style>
+        .profile-section {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 40px;
+            align-items: center;
+            background: var(--bg-light);
+            padding: 25px;
+            border-radius: 4px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--accent);
+            background: #eee;
+        }
+        .profile-info h3 {
+            color: var(--primary);
+            margin-bottom: 5px;
+            font-size: 20px;
+        }
+        .profile-info p {
+            font-size: 14px;
+            color: var(--text-muted);
+            margin-bottom: 10px;
+        }
+        .expertise-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .expertise-card {
+            background: white;
+            padding: 20px;
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            transition: 0.3s;
+        }
+        .expertise-card:hover {
+            border-color: var(--accent);
+            box-shadow: var(--shadow);
+            transform: translateY(-2px);
+        }
+        .expertise-card h4 {
+            font-size: 13px;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+        .expertise-card p {
+            font-size: 13px;
+            color: var(--text-main);
+        }
+        .institutional-box {
+            border-left: 4px solid var(--primary);
+            padding: 20px;
+            margin-bottom: 20px;
+            background: #fdfdfd;
+        }
+        .institutional-box h4 {
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+        .value-prop {
+            background: var(--primary);
+            color: white;
+            padding: 40px;
+            border-radius: 4px;
+            margin-top: 40px;
+        }
+        .value-prop h3 {
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+        .value-prop p {
+            font-size: 15px;
+            opacity: 0.9;
+            margin-bottom: 20px;
+        }
+        .value-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+        }
+        .value-item {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 4px;
+        }
+        .value-item h5 {
+            font-size: 14px;
+            margin-bottom: 10px;
+            color: var(--accent);
+        }
+        .value-item p {
+            font-size: 12px;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="technical-sheet">
+        <header>
+            <div>
+                <div class="brand-title">COCUUS SYSTEM IBÉRICA</div>
+                <h1 class="machine-name">EXPERIENCIA Y EQUIPO</h1>
+                <div class="category-tag">Soporte Técnico y Trayectoria Profesional</div>
+            </div>
+        </header>
+
+        <section>
+            <p style="font-size: 16px; margin-bottom: 30px; line-height: 1.8;">
+                Más allá del listado de máquinas y del presupuesto económico, lo que os ofrecemos es un acompañamiento real: la maquinaria es el punto de partida, no el final. Un Fab Lab que funcione, y aún más uno que aspire a integrarse en la red del MIT, necesita máquinas, sí, pero también formación, mantenimiento y un compañero técnico constante.
+            </p>
+
+            <h2>Sobre Cocuus System Ibérica</h2>
+            <p style="margin-bottom: 20px;">
+                Especializados en la implantación de tecnologías de fabricación digital en entornos académicos y centros tecnológicos. Nuestro foco no es vender una máquina y desaparecer: es dejar instalado un taller que funcione, con personas formadas y con soporte técnico reactivo.
+            </p>
+
+            <div class="expertise-grid">
+                <div class="expertise-card">
+                    <h4>Impresión 3D</h4>
+                    <p>FDM, SLA, SLS y multi-material. Gestión de granjas de producción y docencia.</p>
+                </div>
+                <div class="expertise-card">
+                    <h4>Mecanizado CNC</h4>
+                    <p>Fresado de 3 a 5 ejes. Configuración de controladoras (LinuxCNC, Fanuc, Siemens).</p>
+                </div>
+                <div class="expertise-card">
+                    <h4>Corte Láser</h4>
+                    <p>Desde prototipado rápido hasta gran formato para arquitectura y carpintería.</p>
+                </div>
+                <div class="expertise-card">
+                    <h4>Software & IA</h4>
+                    <p>Desarrollo propio de flujos CAD/CAM y automatización (Grasshopper, Python, IA).</p>
+                </div>
+            </div>
+
+            <h2 style="margin-top: 40px;">Experiencia Académica</h2>
+            <div class="institutional-box">
+                <h4>Universidad Pública de Navarra (UPNA)</h4>
+                <p>Dotación y soporte de equipamiento de fabricación digital, apoyando en la fase de selección de maquinaria y formación del alumnado.</p>
+            </div>
+            <div class="institutional-box">
+                <h4>Universidad de Navarra (ETSAUN)</h4>
+                <p>Participación directa en el montaje y puesta en marcha del Laboratorio de Arquitectura durante tres años. Experiencia vital en la organización física del taller, guías docentes y formación del PDI.</p>
+            </div>
+
+            <h2 style="margin-top: 40px;">Responsable Técnico</h2>
+            <div class="profile-section">
+                <!-- Perfil con placeholder de imagen -->
+                <div class="profile-img" style="display: flex; align-items: center; justify-content: center; font-size: 40px; color: var(--primary);">JZ</div>
+                <div class="profile-info">
+                    <h3>Javier Ignacio Zaratiegui Fernández</h3>
+                    <p>Arquitecto por la ETSAM | Computational Design Specialist</p>
+                    <p style="font-size: 13px; color: var(--text-main);">
+                        Máster en <strong>Computational Design and Fabrication Technologies in Architecture</strong> (Países Bajos). 
+                        Experto en la intersección entre diseño paramétrico (Rhino/Grasshopper) y fabricación digital. 
+                        Conoce desde dentro el contenido docente que el BAI quiere ofrecer.
+                    </p>
+                </div>
+            </div>
+
+            <h2>Ecosistema Extendido</h2>
+            <div class="institutional-box" style="border-color: var(--accent);">
+                <h4>Phenomenon Robotics</h4>
+                <p>Empresa hermana especializada en robótica industrial. Una alianza estratégica que permite al BAI escalar hacia brazos robóticos y fabricación aditiva a gran escala (hormigón, materiales no convencionales) en el futuro.</p>
+            </div>
+
+            <div class="value-prop">
+                <h3>Por qué esta propuesta no es solo un presupuesto</h3>
+                <p>Hemos visto demasiados talleres universitarios con máquinas paradas por falta de formación o mantenimiento. Nuestra propuesta se estructura en tres ejes fundamentales:</p>
+                
+                <div class="value-grid">
+                    <div class="value-item">
+                        <h5>Equipamiento</h5>
+                        <p>Dimensionado para una guía docente real y con un horizonte a 3 años.</p>
+                    </div>
+                    <div class="value-item">
+                        <h5>Formación</h5>
+                        <p>Adaptada al nivel del equipo docente y técnico para cada tecnología.</p>
+                    </div>
+                    <div class="value-item">
+                        <h5>Soporte 360</h5>
+                        <p>Acompañamiento tras la entrega, resolución de incidencias y evolución del taller.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div>Cocuus System Ibérica - Propuesta Estratégica para BAI</div>
+            <div class="footer-logo">BAI | EXPERIENCE & TEAM</div>
+        </footer>
+    </div>
+</body>
+</html>
